@@ -139,6 +139,17 @@ ProductsMapping: dict[str, dict[str, tuple[TuyaLightEntityDescription, ...]]] = 
                     }
                 }
             ),
+        ),
+        "g5wcttwc": (
+            TuyaLightEntityDescription(
+                key=DPCode.SWITCH_LED,
+                name=None,
+                color_mode=DPCode.WORK_MODE,
+                brightness=DPCode.BRIGHT_VALUE,
+                color_temp=DPCode.TEMP_VALUE,
+                color_data=DPCode.COLOUR_DATA,
+                default_color_type=DEFAULT_COLOR_TYPE_DATA_V2,
+            ),
         )
     }
 }
